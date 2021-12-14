@@ -195,6 +195,9 @@ function DeleteAll()
     var delete2 = document.getElementsByClassName("MoveButton")[0];
     delete2.remove();
 
+    var deletereload  = document.getElementsByClassName("ReloadButton")[0];
+    deletereload.remove();
+
     var delete3 = document.getElementsByClassName("BlockFourth")[0];
     delete3.remove();
 
